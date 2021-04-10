@@ -1,0 +1,195 @@
+/* @font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2"),
+    url("../fonts/Raleway-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"),
+    url("../fonts/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --color-blue: #2196f3;
+  --color-white: #ffffff;
+  --color-white-transparent: rgba(255, 255, 255, 0.6);
+  --color-text-dark: #212121;
+  --color-text-gray: #757575;
+  --color-background-gray: #2f303a;
+  --color-background-light-gray: #f5f4fa;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: var(--color-text-dark);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: inherit;
+}
+
+.logo_blue {
+  color: var(--color-blue);
+}
+
+.header-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-text-dark);
+}
+
+.contac-link {
+  color: var(--color-text-gray);
+}
+
+.header-link:hover {
+  color: #2196f3;
+}
+.section-dark {
+  background: var(--color-background-gray);
+}
+
+.page-title {
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--color-white);
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.button-click {
+  background: #2196f3;
+  border: 0;
+  color: var(--color-white);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.section_tittle {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.work_title {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.work_description {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-text-gray);
+}
+
+.section-team {
+  background: var(--color-background-light-gray);
+}
+.team-name {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.team-position {
+  line-height: 19px;
+  color: var(--color-text-gray);
+  text-align: center;
+}
+
+.filter-button {
+  background: var(--color-background-light-gray);
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 26px;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-button:hover {
+  color: var(--color-white);
+  background: var(--color-blue);
+}
+
+.filter-button.active {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 900;
+}
+
+.portfolio-card {
+  box-shadow: 0px 5px 7px 0px var(--color-text-gray);
+}
+
+.portfolio-card-title {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.portfolio-link {
+  color: inherit;
+}
+
+.portfolio-card-category {
+  line-height: 30px;
+  color: var(--color-text-gray);
+}
+
+.footer {
+  background: var(--color-background-gray);
+  color: var(--color-white);
+}
+.address_link {
+  color: var(--color-white-transparent);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
