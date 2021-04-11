@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-02</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="./index.html"
+      <a class="logo link" href="./index.html"
         ><span class="logo_blue">Web</span>Studio</a
       >
       <nav class="navigaton">
-        <ul>
-          <li><a class="header-link" href="./index.html">Студия</a></li>
-          <li><a class="header-link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="header-link" href="./">контакты</a></li>
+        <ul class="list-style">
+          <li><a class="header-link link" href="./index.html">Студия</a></li>
+          <li>
+            <a class="header-link link active" href="./portfolio.html"
+              >Портфолио</a
+            >
+          </li>
+          <li><a class="header-link link" href="./">контакты</a></li>
         </ul>
       </nav>
-      <ul class="header-contacs">
+      <ul class="header-contacs list-style">
         <li>
-          <a class="header-link contac-link" href="mailto:info@devstudio.com"
+          <a
+            class="header-link contac-link link"
+            href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="header-link contac-link" href="tel:+380961111111"
+          <a class="header-link contac-link link" href="tel:+380961111111"
             >+380961111111</a
           >
         </li>
@@ -35,27 +46,26 @@
     </header>
     <main>
       <section>
-        <div>
-          <ul>
-            <li><button class="filter-button" type="button">все</button></li>
-            <li>
-              <button class="filter-button active" type="button">
-                Веб-сайты
-              </button>
-            </li>
-            <li>
-              <button class="filter-button" type="button">Приложения</button>
-            </li>
-            <li><button class="filter-button" type="button">Дизайн</button></li>
-            <li>
-              <button class="filter-button" type="button">Маркетинг</button>
-            </li>
-          </ul>
-        </div>
+        <h1>Наше Портфолио</h1>
+        <ul class="list-style">
+          <li>
+            <button class="filter-button active" type="button">все</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Приложения</button>
+          </li>
+          <li><button class="filter-button" type="button">Дизайн</button></li>
+          <li>
+            <button class="filter-button" type="button">Маркетинг</button>
+          </li>
+        </ul>
 
-        <ul>
+        <ul class="list-style">
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio1.jpg"
                 alt="Веб-сайт"
@@ -66,7 +76,7 @@
             </a>
           </li>
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio2.jpg"
                 alt="Дизайн"
@@ -79,7 +89,7 @@
             </a>
           </li>
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio3.jpg"
                 alt="Приложение"
@@ -90,7 +100,7 @@
             </a>
           </li>
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio4.jpg"
                 alt="Маркетинг"
@@ -101,7 +111,7 @@
             </a>
           </li>
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio5.jpg"
                 alt="Приложение"
@@ -112,7 +122,7 @@
             </a>
           </li>
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio6.jpg"
                 alt="Веб-сайт"
@@ -123,7 +133,7 @@
             </a>
           </li>
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio7.jpg"
                 alt="Дизайн"
@@ -134,7 +144,7 @@
             </a>
           </li>
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio8.jpg"
                 alt="Маркетинг"
@@ -145,7 +155,7 @@
             </a>
           </li>
           <li class="portfolio-card">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link link" href="">
               <img
                 src="./img/portfolio/portfolio9.jpg"
                 alt="Приложение"
@@ -159,19 +169,19 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="./index.html"
+      <a class="logo link" href="./index.html"
         ><span class="logo_blue">Web</span>Studio</a
       >
       <address class="address">
-        <ul>
+        <ul class="list-style">
           <li>г. Киев, пр-т Леси Украинки, 26</li>
           <li>
-            <a class="address_link" href="mailto:info@example.com"
+            <a class="address_link link" href="mailto:info@example.com"
               >info@example.com</a
             >
           </li>
           <li>
-            <a class="address_link" href="tel:+380991111111"
+            <a class="address_link link" href="tel:+380991111111"
               >+38 099 111 11 11</a
             >
           </li>

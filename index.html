@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-01</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="./index.html"
+      <a class="logo link" href="./index.html"
         ><span class="logo_blue">Web</span>Studio</a
       >
       <nav class="navigaton">
-        <ul>
-          <li><a class="header-link" href="./index.html">Студия</a></li>
-          <li><a class="header-link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="header-link" href="./">контакты</a></li>
+        <ul class="list-style">
+          <li>
+            <a class="header-link link active" href="./index.html">Студия</a>
+          </li>
+          <li>
+            <a class="header-link link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="header-link link" href="./">контакты</a></li>
         </ul>
       </nav>
-      <ul class="header-contacs">
+      <ul class="header-contacs list-style">
         <li>
-          <a class="header-link contac-link" href="mailto:info@devstudio.com"
+          <a
+            class="header-link contac-link link"
+            href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="header-link contac-link" href="tel:+380961111111"
+          <a class="header-link contac-link link" href="tel:+380961111111"
             >+380961111111</a
           >
         </li>
@@ -39,7 +50,8 @@
         <button class="button-click" type="button">Заказать услугу</button>
       </section>
       <section class="section_work">
-        <ul>
+        <h2>Наше преимущества</h2>
+        <ul class="list-style">
           <li>
             <h3 class="work_title">внимание к деталям</h3>
             <p class="work_description">
@@ -73,7 +85,7 @@
       <section>
         <h2 class="section_tittle">Чем мы заняты</h2>
         <div>
-          <ul>
+          <ul class="list-style">
             <li><img src="./img/box1.jpg" width="370" alt="box1" /></li>
             <li><img src="./img/box2.jpg" width="370" alt="box2" /></li>
             <li><img src="./img/box3.jpg" width="370" alt="box3" /></li>
@@ -82,7 +94,7 @@
       </section>
       <section class="section-team">
         <h2 class="section_tittle">Наша команда</h2>
-        <ul>
+        <ul class="list-style">
           <li>
             <img src="./img/photo2.jpg" width="260" alt="Игорь Демьяненко" />
             <h3 class="team-name">Игорь Демьяненко</h3>
@@ -107,19 +119,19 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="./index.html"
+      <a class="logo link" href="./index.html"
         ><span class="logo_blue">Web</span>Studio</a
       >
       <address class="address">
-        <ul>
+        <ul class="list-style">
           <li>г. Киев, пр-т Леси Украинки, 26</li>
           <li>
-            <a class="address_link" href="mailto:info@example.com"
+            <a class="address_link link" href="mailto:info@example.com"
               >info@example.com</a
             >
           </li>
           <li>
-            <a class="address_link" href="tel:+380991111111"
+            <a class="address_link link" href="tel:+380991111111"
               >+38 099 111 11 11</a
             >
           </li>

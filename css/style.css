@@ -43,15 +43,15 @@
   font-display: swap;
 } */
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"); */
 :root {
-  --color-blue: #2196f3;
-  --color-white: #ffffff;
-  --color-white-transparent: rgba(255, 255, 255, 0.6);
+  --color-highlight: #2196f3;
+  --color-text-alt: #ffffff;
+  --color-text-alt-transparent: rgba(255, 255, 255, 0.6);
   --color-text-dark: #212121;
-  --color-text-gray: #757575;
-  --color-background-gray: #2f303a;
-  --color-background-light-gray: #f5f4fa;
+  --color-text-light: #757575;
+  --color-background-dark: #2f303a;
+  --color-background-light: #f5f4fa;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -59,6 +59,13 @@ body {
   font-weight: normal;
   font-style: normal;
   color: var(--color-text-dark);
+}
+
+.link {
+  text-decoration: none;
+}
+.list-style {
+  list-style-type: none;
 }
 
 .logo {
@@ -70,40 +77,42 @@ body {
 }
 
 .logo_blue {
-  color: var(--color-blue);
+  color: var(--color-highlight);
 }
 
 .header-link {
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.1428;
   color: var(--color-text-dark);
 }
 
 .contac-link {
-  color: var(--color-text-gray);
+  color: var(--color-text-light);
 }
 
+.header-link.active,
 .header-link:hover,
 .header-link:focus {
-  color: var(--color-blue);
+  color: var(--color-highlight);
 }
 .section-dark {
-  background: var(--color-background-gray);
+  background: var(--color-background-dark);
 }
 
 .page-title {
   font-size: 44px;
   line-height: 1.3636;
-  color: var(--color-white);
+  color: var(--color-text-alt);
   text-align: center;
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .button-click {
-  background: var(--color-blue);
+  background: var(--color-highlight);
   border: 0;
-  color: var(--color-white);
+  color: var(--color-text-alt);
   font-size: 16px;
   line-height: 1.875;
   font-weight: bold;
@@ -118,16 +127,17 @@ body {
 .work_title {
   font-size: 14px;
   line-height: 1.1428;
+  text-transform: uppercase;
 }
 
 .work_description {
   font-size: 14px;
   line-height: 1.714;
-  color: var(--color-text-gray);
+  color: var(--color-text-light);
 }
 
 .section-team {
-  background: var(--color-background-light-gray);
+  background: var(--color-background-light);
 }
 .team-name {
   font-size: 16px;
@@ -138,12 +148,12 @@ body {
 
 .team-position {
   line-height: 1.1875;
-  color: var(--color-text-gray);
+  color: var(--color-text-light);
   text-align: center;
 }
 
 .filter-button {
-  background: var(--color-background-light-gray);
+  background: var(--color-background-light);
   border-radius: 4px;
   font-weight: 500;
   line-height: 1.625;
@@ -153,19 +163,19 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.filter-button:hover,
-.filter-button:focus {
-  color: var(--color-white);
-  background: var(--color-blue);
+.filter-button.active {
+  color: var(--color-text-alt);
+  background: var(--color-highlight);
 }
 
-.filter-button.active {
+.filter-button:hover,
+.filter-button:focus {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: 900;
 }
 
 .portfolio-card {
-  box-shadow: 0px 5px 7px 0px var(--color-text-gray);
+  /* box-shadow: 0px 5px 7px 0px var(--color-text-gray); */
 }
 
 .portfolio-card-title {
@@ -179,19 +189,19 @@ body {
 
 .portfolio-card-category {
   line-height: 1.875;
-  color: var(--color-text-gray);
+  color: var(--color-text-light);
 }
 
 .footer {
-  background: var(--color-background-gray);
-  color: var(--color-white);
+  background: var(--color-background-dark);
+  color: var(--color-text-alt);
 }
 .address_link {
-  color: var(--color-white-transparent);
+  color: var(--color-text-alt-transparent);
 }
 .address_link:hover,
 .address_link:focus {
-  color: var(--color-blue);
+  color: var(--color-highlight);
 }
 
 .address {
